@@ -33,6 +33,7 @@ Some of the questions asked when working with this dataset:
 #### Conditional Function:
 - CASE(): Used this conditional function in order to filter cars that are greater than $80,000 as 'Very Expensive' and ones that don't fit the criteria as 'Affordable'
 
+### Example Queries
 ```
 select  `Year`, count(`Year`) as UniqueYear
 from cars_data.car_data
